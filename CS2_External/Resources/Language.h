@@ -444,137 +444,138 @@ namespace Lang
 		ESPtext.ArmorNum = "护甲值";
 		ESPtext.RenderDistance = "最大渲染距离: ";
 
-		ESPtext.BoxType_Normal = "Normal";
-		ESPtext.BoxType_Edge = "Dynamic";
-		ESPtext.BoxType_Corner = "Corner";
-		ESPtext.LinePos_1 = "Top";
-		ESPtext.LinePos_2 = "Center";
-		ESPtext.LinePos_3 = "Bottom";
+		ESPtext.BoxType_Normal = "正常";
+		ESPtext.BoxType_Edge = "动态";
+		ESPtext.BoxType_Corner = "角";
+		ESPtext.LinePos_1 = "上";
+		ESPtext.LinePos_2 = "中";
+		ESPtext.LinePos_3 = "下";
 
-		// Aimbot
-		AimbotText.Enable = "Enable Aimbot";
-		AimbotText.FeatureName = " Aimbot";
-		AimbotText.HotKeyList = "Hotkey   ";
-		AimbotText.Toggle = "Toggle Mode";
-		AimbotText.DrawFov = "Draw Fov";
-		AimbotText.VisCheck = "Visible Only";
-		AimbotText.JumpCheck = "On Ground Only";
-		AimbotText.FovSlider = "FOV: ";
-		AimbotText.FovMinSlider = "MinFOV: ";
-		AimbotText.SmoothSlider = "Smooth: ";
-		AimbotText.BoneList = "Hitbox";
-		AimbotText.SprayBoneList = "Spray";
-		AimbotText.Tip = "Aimbot will not work while the menu is opened";
-		AimbotText.ScopeOnly = "Scope Only ";
-		AimbotText.AimLock = "Aim Lock";
-		AimbotText.AutoShot = "Auto Shot";
-		AimbotText.BulletSlider = "Start Bullet: ";
-		AimbotText.IgnoreFlash = "Ignore Flash ";
-		AimbotText.Ragebot = "Ragebot";
+		// 自瞄
+		AimbotText.Enable = "启用自瞄";
+		AimbotText.FeatureName = " 自瞄";
+		AimbotText.HotKeyList = "热键   ";
+		AimbotText.Toggle = "切换模式";
+		AimbotText.DrawFov = "显示视野";
+		AimbotText.VisCheck = "仅可见";
+		AimbotText.JumpCheck = "仅在地面";
+		AimbotText.FovSlider = "视野: ";
+		AimbotText.FovMinSlider = "最小视野: ";
+		AimbotText.SmoothSlider = "平滑: ";
+		AimbotText.BoneList = "命中部位";
+		AimbotText.SprayBoneList = "喷射";
+		AimbotText.Tip = "菜单打开时自瞄将不起作用";
+		AimbotText.ScopeOnly = "仅瞄准";
+		AimbotText.AimLock = "锁定目标";
+		AimbotText.AutoShot = "自动射击";
+		AimbotText.BulletSlider = "起始子弹: ";
+		AimbotText.IgnoreFlash = "忽略闪光";
+		AimbotText.Ragebot = "狂暴自瞄";
 
-		// RCS
-		RCStext.Toggle = "Recoil Control";
-		RCStext.Yaw = "Yaw: ";
-		RCStext.Pitch = "Pitch: ";
+		// 后坐力控制
+		RCStext.Toggle = "后坐力控制";
+		RCStext.Yaw = "偏航: ";
+		RCStext.Pitch = "俯仰: ";
 
-		// Radar
-		RadarText.Toggle = "Show Radar";
-		RadarText.FeatureName = " Radar";
-		RadarText.StyleList = "Style";
-		RadarText.CustomCheck = "Custom";
-		RadarText.CrossLine = "Cross Line";
-		RadarText.SizeSlider = "Point Size:";
-		RadarText.ProportionSlider = "Proportion:";
-		RadarText.RangeSlider = "Range:";
-		RadarText.AlphaSlider = "Window Background Alpha:";
+		// 雷达
+		RadarText.Toggle = "显示雷达";
+		RadarText.FeatureName = " 雷达";
+		RadarText.StyleList = "样式";
+		RadarText.CustomCheck = "自定义";
+		RadarText.CrossLine = "十字线";
+		RadarText.SizeSlider = "点大小:";
+		RadarText.ProportionSlider = "比例:";
+		RadarText.RangeSlider = "范围:";
+		RadarText.AlphaSlider = "窗口背景透明度:";
 
-		// Triggerbot
-		TriggerText.Enable = "Enable Triggerbot";
-		TriggerText.FeatureName = " Triggerbot";
-		TriggerText.HotKeyList = "Hotkey   ";
-		TriggerText.Toggle = "Always Active";
-		TriggerText.ScopeOnly = "Scope Only";
-		TriggerText.IgnoreFlash = "Ignore Flash";
-		TriggerText.DelaySlider = "Shot Delay:";
-		TriggerText.FakeShotSlider = "Shot Duration:";
+		// 触发器
+		TriggerText.Enable = "启用触发器";
+		TriggerText.FeatureName = " 触发器";
+		TriggerText.HotKeyList = "热键   ";
+		TriggerText.Toggle = "始终激活";
+		TriggerText.ScopeOnly = "仅瞄准";
+		TriggerText.IgnoreFlash = "忽略闪光";
+		TriggerText.DelaySlider = "射击延迟:";
+		TriggerText.FakeShotSlider = "射击持续时间:";
 
-		// Crosshairs
-		CrosshairsText.Toggle = "Show Crosshairs";
-		CrosshairsText.FeatureName = " Crosshairs";
-		CrosshairsText.PresetList = "Presets";
-		CrosshairsText.ColorEditor = "Crosshairs Color";
-		CrosshairsText.Dot = "Center Dot";
-		CrosshairsText.DotSizeSlider = "Dot Size:";
-		CrosshairsText.Outline = "Outline";
-		CrosshairsText.Crossline = "Crossline";
-		CrosshairsText.hLengthSlider = "Horizontal Length:";
-		CrosshairsText.vLengthSilder = "Vertical Length:";
-		CrosshairsText.GapSlider = "Gap:";
-		CrosshairsText.ThicknessSlider = "Thickness:";
-		CrosshairsText.tStyle = "T Style";
-		CrosshairsText.Circle = "Circle";
-		CrosshairsText.RadiusSlider = "Circle Radius:";
-		CrosshairsText.TargetCheck = "Targeting Crosshairs";
-		CrosshairsText.TeamCheck = "TeamCheck";
+		// 准星
+		CrosshairsText.Toggle = "显示准星";
+		CrosshairsText.FeatureName = " 准星";
+		CrosshairsText.PresetList = "预设";
+		CrosshairsText.ColorEditor = "准星颜色";
+		CrosshairsText.Dot = "中心点";
+		CrosshairsText.DotSizeSlider = "点大小:";
+		CrosshairsText.Outline = "轮廓";
+		CrosshairsText.Crossline = "十字线";
+		CrosshairsText.hLengthSlider = "水平长度:";
+		CrosshairsText.vLengthSilder = "垂直长度:";
+		CrosshairsText.GapSlider = "间隙:";
+		CrosshairsText.ThicknessSlider = "厚度:";
+		CrosshairsText.tStyle = "T型";
+		CrosshairsText.Circle = "圆形";
+		CrosshairsText.RadiusSlider = "圆半径:";
+		CrosshairsText.TargetCheck = "目标准星";
+		CrosshairsText.TeamCheck = "队伍检查";
 
-		// Misc 
-		MiscText.FeatureName = " Misc";
-		MiscText.ThemeList = "Skin       ";
-		MiscText.StyleList = "Style";
-		MiscText.HeadshotLine = "Headshot Line";
-		MiscText.SpecCheck = "Cheat in Spec";
-		MiscText.NoFlash = "No Flash";
-		MiscText.FastStop = "Fast Stop";
-		MiscText.HitSound = "Hit Sound ";
-		MiscText.bmbTimer = "Bomb Timer";
-		MiscText.SpecList = "Spec List";
-		MiscText.Bhop = "Bhop";
-		MiscText.Watermark = "Watermark";
-		MiscText.CheatList = "Cheat List";
-		MiscText.TeamCheck = "Team Check";
-		MiscText.AntiRecord = "Anti Record";
-		MiscText.MoneyService = "Money Services";
-		MiscText.ShowCashSpent = "Show Cash Spent";
-		MiscText.EnemySensor = "Glow";
-		MiscText.RadarHack = "Radar Hack";
-		MiscText.FastStop = "Fast Stop";
-		MiscText.VisCheckDisable = "Visible Check DISABLED";
-		MiscText.NoSmoke = "No Smoke";
-		MiscText.SmokeColor = "Smoke Color";
-		MiscText.fovchanger = "Fov Changer: ";
-		MiscText.ForceScope = "Force Scope";
-		MiscText.FlashImmunity = "Flash Immunity: ";
-		MiscText.NightMode = "Night Mode";
-		MiscText.Alpha = "Alpha: ";
-		MiscText.JumpThrow = "Jump Throw";
+		// 杂项
+		MiscText.FeatureName = " 杂项";
+		MiscText.ThemeList = "皮肤       ";
+		MiscText.StyleList = "样式";
+		MiscText.HeadshotLine = "爆头线";
+		MiscText.SpecCheck = "观察作弊";
+		MiscText.NoFlash = "无闪光";
+		MiscText.FastStop = "快速停止";
+		MiscText.HitSound = "命中音效 ";
+		MiscText.bmbTimer = "炸弹计时器";
+		MiscText.SpecList = "观察列表";
+		MiscText.Bhop = "连跳";
+		MiscText.Watermark = "水印";
+		MiscText.CheatList = "作弊列表";
+		MiscText.TeamCheck = "队伍检查";
+		MiscText.AntiRecord = "防录制";
+		MiscText.MoneyService = "金钱服务";
+		MiscText.ShowCashSpent = "显示花费";
+		MiscText.EnemySensor = "发光";
+		MiscText.RadarHack = "雷达作弊";
+		MiscText.FastStop = "快速停止";
+		MiscText.VisCheckDisable = "可见检查已禁用";
+		MiscText.NoSmoke = "无烟雾";
+		MiscText.SmokeColor = "烟雾颜色";
+		MiscText.fovchanger = "视野更改: ";
+		MiscText.ForceScope = "强制瞄准";
+		MiscText.FlashImmunity = "闪光免疫: ";
+		MiscText.NightMode = "夜间模式";
+		MiscText.Alpha = "透明度: ";
+		MiscText.JumpThrow = "跳投";
 
-		MiscText.FakeDuck = "Fake Duck";
+		MiscText.FakeDuck = "假蹲";
 
-		MiscText.LanguageList = "Language";
+		MiscText.LanguageList = "语言";
 
-		// Config Menu
-		ConfigText.FeatureName = "Config Loader";
-		ConfigText.MyConfigs = "Config List";
-		ConfigText.Load = "Load Selected";
-		ConfigText.Save = "Save Selected";
-		ConfigText.Delete = "Delete Selected";
-		ConfigText.Reset = "Reset Config";
-		ConfigText.Create = "Create";
-		ConfigText.OpenFolder = "Open Folder";
-		ConfigText.SeparateLine = "Create Config";
-		ConfigText.AuthorName = "Author Name";
-		ConfigText.ConfigName = "Config Name";
+		// 配置菜单
+		ConfigText.FeatureName = "配置加载器";
+		ConfigText.MyConfigs = "配置列表";
+		ConfigText.Load = "加载选中";
+		ConfigText.Save = "保存选中";
+		ConfigText.Delete = "删除选中";
+		ConfigText.Reset = "重置配置";
+		ConfigText.Create = "创建";
+		ConfigText.OpenFolder = "打开文件夹";
+		ConfigText.SeparateLine = "创建配置";
+		ConfigText.AuthorName = "作者名称";
+		ConfigText.ConfigName = "配置名称";
 
-		ConfigText.SafeMode = "Safe Mode";
-		ConfigText.fpsCap = "Frame Limit: ";
-		ConfigText.SafeModeHoveredTip = "Disable all unsafe functions that modify game's memory";
+		ConfigText.SafeMode = "安全模式";
+		ConfigText.fpsCap = "帧率限制: ";
+		ConfigText.SafeModeHoveredTip = "禁用所有修改游戏内存的不安全功能";
+
 
 		// Readme Menu
 		ReadMeText.FeatureName = " README";
-		ReadMeText.LastUpdate = "Last update: ";
-		ReadMeText.SourceButton = "Source Code";
-		ReadMeText.DiscordButton = "Join Discord";
-		ReadMeText.OffsetsTitle = "Offsets:";
+		ReadMeText.LastUpdate = "最后更新: ";
+		ReadMeText.SourceButton = "源代码";
+		ReadMeText.DiscordButton = "加入Discord";
+		ReadMeText.OffsetsTitle = "偏移:";
 		return;
 	}
 }
