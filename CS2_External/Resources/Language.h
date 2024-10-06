@@ -403,5 +403,178 @@ namespace Lang
 		return;
 	}
 
+	inline void Chinese()
+	{
+		Global.Date = "无";
+		Global.Author = "无";
 
+		Global.SwitchButton = "激活";
+		Global.FeatureSettings = "设置";
+
+		// ESP
+		ESPtext.Toggle = "开/关";
+		ESPtext.FeatureName = " ESP";
+		ESPtext.Box = "方框";
+		ESPtext.BoxRounding = "方框圆角: ";
+		ESPtext.FilledBox = "填充";
+		ESPtext.FilledAlpha = "填充透明度";
+		ESPtext.Skeleton = "骨骼";
+		ESPtext.HeadBox = "头部";
+		ESPtext.EyeRay = "视线";
+		ESPtext.HealthBar = "血条";
+		ESPtext.Weapon = "武器";
+		ESPtext.Distance = "距离";
+		ESPtext.PlayerName = "名字";
+		ESPtext.SnapLine = "连线";
+		ESPtext.LinePosList = "线位置: ";
+		ESPtext.VisCheck = "可视检查";
+		ESPtext.Preview = "预览窗口";
+		ESPtext.CollapseHead = "SexyESP";
+		ESPtext.Penis = "坤坤线";
+		ESPtext.PenisLength = "长度";
+		ESPtext.PenisSize = "大小";
+		ESPtext.MultiColor = "炫彩";
+		ESPtext.MultiColTip = "仅当箱子有非圆角时才起作用.";
+		ESPtext.Outline = "描边";
+		ESPtext.BoxType = "方框类型:";
+		ESPtext.HealthNum = "血数字";
+		ESPtext.Ammo = "子弹";
+		ESPtext.ScopedESP = "显示范围";
+		ESPtext.ShowArmorBar = "护甲条";
+		ESPtext.ArmorNum = "护甲值";
+		ESPtext.RenderDistance = "最大渲染距离: ";
+
+		ESPtext.BoxType_Normal = "Normal";
+		ESPtext.BoxType_Edge = "Dynamic";
+		ESPtext.BoxType_Corner = "Corner";
+		ESPtext.LinePos_1 = "Top";
+		ESPtext.LinePos_2 = "Center";
+		ESPtext.LinePos_3 = "Bottom";
+
+		// Aimbot
+		AimbotText.Enable = "Enable Aimbot";
+		AimbotText.FeatureName = " Aimbot";
+		AimbotText.HotKeyList = "Hotkey   ";
+		AimbotText.Toggle = "Toggle Mode";
+		AimbotText.DrawFov = "Draw Fov";
+		AimbotText.VisCheck = "Visible Only";
+		AimbotText.JumpCheck = "On Ground Only";
+		AimbotText.FovSlider = "FOV: ";
+		AimbotText.FovMinSlider = "MinFOV: ";
+		AimbotText.SmoothSlider = "Smooth: ";
+		AimbotText.BoneList = "Hitbox";
+		AimbotText.SprayBoneList = "Spray";
+		AimbotText.Tip = "Aimbot will not work while the menu is opened";
+		AimbotText.ScopeOnly = "Scope Only ";
+		AimbotText.AimLock = "Aim Lock";
+		AimbotText.AutoShot = "Auto Shot";
+		AimbotText.BulletSlider = "Start Bullet: ";
+		AimbotText.IgnoreFlash = "Ignore Flash ";
+		AimbotText.Ragebot = "Ragebot";
+
+		// RCS
+		RCStext.Toggle = "Recoil Control";
+		RCStext.Yaw = "Yaw: ";
+		RCStext.Pitch = "Pitch: ";
+
+		// Radar
+		RadarText.Toggle = "Show Radar";
+		RadarText.FeatureName = " Radar";
+		RadarText.StyleList = "Style";
+		RadarText.CustomCheck = "Custom";
+		RadarText.CrossLine = "Cross Line";
+		RadarText.SizeSlider = "Point Size:";
+		RadarText.ProportionSlider = "Proportion:";
+		RadarText.RangeSlider = "Range:";
+		RadarText.AlphaSlider = "Window Background Alpha:";
+
+		// Triggerbot
+		TriggerText.Enable = "Enable Triggerbot";
+		TriggerText.FeatureName = " Triggerbot";
+		TriggerText.HotKeyList = "Hotkey   ";
+		TriggerText.Toggle = "Always Active";
+		TriggerText.ScopeOnly = "Scope Only";
+		TriggerText.IgnoreFlash = "Ignore Flash";
+		TriggerText.DelaySlider = "Shot Delay:";
+		TriggerText.FakeShotSlider = "Shot Duration:";
+
+		// Crosshairs
+		CrosshairsText.Toggle = "Show Crosshairs";
+		CrosshairsText.FeatureName = " Crosshairs";
+		CrosshairsText.PresetList = "Presets";
+		CrosshairsText.ColorEditor = "Crosshairs Color";
+		CrosshairsText.Dot = "Center Dot";
+		CrosshairsText.DotSizeSlider = "Dot Size:";
+		CrosshairsText.Outline = "Outline";
+		CrosshairsText.Crossline = "Crossline";
+		CrosshairsText.hLengthSlider = "Horizontal Length:";
+		CrosshairsText.vLengthSilder = "Vertical Length:";
+		CrosshairsText.GapSlider = "Gap:";
+		CrosshairsText.ThicknessSlider = "Thickness:";
+		CrosshairsText.tStyle = "T Style";
+		CrosshairsText.Circle = "Circle";
+		CrosshairsText.RadiusSlider = "Circle Radius:";
+		CrosshairsText.TargetCheck = "Targeting Crosshairs";
+		CrosshairsText.TeamCheck = "TeamCheck";
+
+		// Misc 
+		MiscText.FeatureName = " Misc";
+		MiscText.ThemeList = "Skin       ";
+		MiscText.StyleList = "Style";
+		MiscText.HeadshotLine = "Headshot Line";
+		MiscText.SpecCheck = "Cheat in Spec";
+		MiscText.NoFlash = "No Flash";
+		MiscText.FastStop = "Fast Stop";
+		MiscText.HitSound = "Hit Sound ";
+		MiscText.bmbTimer = "Bomb Timer";
+		MiscText.SpecList = "Spec List";
+		MiscText.Bhop = "Bhop";
+		MiscText.Watermark = "Watermark";
+		MiscText.CheatList = "Cheat List";
+		MiscText.TeamCheck = "Team Check";
+		MiscText.AntiRecord = "Anti Record";
+		MiscText.MoneyService = "Money Services";
+		MiscText.ShowCashSpent = "Show Cash Spent";
+		MiscText.EnemySensor = "Glow";
+		MiscText.RadarHack = "Radar Hack";
+		MiscText.FastStop = "Fast Stop";
+		MiscText.VisCheckDisable = "Visible Check DISABLED";
+		MiscText.NoSmoke = "No Smoke";
+		MiscText.SmokeColor = "Smoke Color";
+		MiscText.fovchanger = "Fov Changer: ";
+		MiscText.ForceScope = "Force Scope";
+		MiscText.FlashImmunity = "Flash Immunity: ";
+		MiscText.NightMode = "Night Mode";
+		MiscText.Alpha = "Alpha: ";
+		MiscText.JumpThrow = "Jump Throw";
+
+		MiscText.FakeDuck = "Fake Duck";
+
+		MiscText.LanguageList = "Language";
+
+		// Config Menu
+		ConfigText.FeatureName = "Config Loader";
+		ConfigText.MyConfigs = "Config List";
+		ConfigText.Load = "Load Selected";
+		ConfigText.Save = "Save Selected";
+		ConfigText.Delete = "Delete Selected";
+		ConfigText.Reset = "Reset Config";
+		ConfigText.Create = "Create";
+		ConfigText.OpenFolder = "Open Folder";
+		ConfigText.SeparateLine = "Create Config";
+		ConfigText.AuthorName = "Author Name";
+		ConfigText.ConfigName = "Config Name";
+
+		ConfigText.SafeMode = "Safe Mode";
+		ConfigText.fpsCap = "Frame Limit: ";
+		ConfigText.SafeModeHoveredTip = "Disable all unsafe functions that modify game's memory";
+
+		// Readme Menu
+		ReadMeText.FeatureName = " README";
+		ReadMeText.LastUpdate = "Last update: ";
+		ReadMeText.SourceButton = "Source Code";
+		ReadMeText.DiscordButton = "Join Discord";
+		ReadMeText.OffsetsTitle = "Offsets:";
+		return;
+	}
 }

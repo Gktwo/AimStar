@@ -204,7 +204,7 @@
       <OpenMPSupport>true</OpenMPSupport>
       <RemoveUnreferencedCodeData>false</RemoveUnreferencedCodeData>
       <OmitFramePointers>true</OmitFramePointers>
-      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/utf-8 /Zc:char8_t- %(AdditionalOptions)</AdditionalOptions>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <IntelJCCErratum>true</IntelJCCErratum>
     </ClCompile>

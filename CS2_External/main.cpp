@@ -922,7 +922,8 @@ void UpdateLang()
 	string langPath = MenuConfig::path + XorStr("\\Languages\\lang.yaml");
 
 	if (!filesystem::exists(langPath)) {
-		English();
+		//English();
+		Chinese();
 		return;
 	}
 	ifstream langStream(langPath);
